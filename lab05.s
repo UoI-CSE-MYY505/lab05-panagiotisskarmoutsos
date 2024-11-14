@@ -69,6 +69,7 @@ taken:
 # There should be no stalls
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
+    add t0, zero, zero
     add  zero, zero, zero  
     add  zero, zero, zero  
     add  zero, zero, zero  
@@ -80,6 +81,7 @@ taken:
 # There should be no stalls
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
+    add t0, zero, zero
     add  zero, zero, zero  
     add  zero, zero, zero  
     add  zero, zero, zero  
@@ -89,6 +91,7 @@ taken:
 #  Is this a data hazard or a control hazard?
 # ----------------------------------------------------------------------------------------
     # nop instructions added between examples
+    add t0, zero, zero
     add  zero, zero, zero  
     add  zero, zero, zero  
     add  zero, zero, zero  
